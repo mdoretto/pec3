@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;1,700&display=swap');
+
+html {
+    background-color: rgb(232, 232, 232);
+    font-size: 10px;
+    font-family: 'Open-Sans', 'Noto-Serif';
+}
+
+/*header*/
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.logo {
+    width: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.logo_header {
+    margin-left: 0.8rem;
+    margin-top: 0.8rem;
+    font-family: 'Open-Sans', serif;
+    text-decoration: none;
+    font-size: 2rem;
+    color:rgb(28, 28, 28);
+}
+
+.header_title {
+    font-family: 'Open-Sans', cursive;
+    color: #A01127;
+}
+
+/*menu*/
+nav li, nav ul {
+    list-style: none;
+    display: inline; 
+    font-weight: 700;
+    font-size: 3.2rem;
+}
+
+.menu {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color:rgb(28, 28, 28);
+}
+
+.header a {
+    text-decoration: none;
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+.header a[href=""] {
+    color: white;
+    font-family:'Open-Sans', sans-serif;
+    background-color: rgb(155, 23, 0);
+    border-radius: 5px;
+    padding: 0.8rem;
+}
+
+.header a[href=""]:hover {
+    background-color: rgb(28, 28, 28);
+}
+
+/*button*/
+button {
+    background-color: rgb(155, 23, 0);
+    border-radius: 5px;
+    margin-right: 8px;
+    margin-top: 8px;
+    padding: 0.8rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+
+button:hover {
+    background-color: rgb(28, 28, 28);
+}
+
+/*tipografía*/
+h1 {
+    font-family: 'Noto-Serif', italic;
+    font-weight: 700;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-family: 'Noto-Serif', sans-serif;
+    font-weight: 400;
+    font-size: calc(1.4rem + 1vw);
+    text-align: left;
+}
+
+main h3 {
+    font-family: 'noto-serif', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/*tipografia index*/
+.p {
+    font-family: 'Noto-Serif';
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    margin-bottom: 4vh;
+    
+}
+.icons figcaption {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.text_grid h2 {
+    text-align: left;
+    font-family: serif;
+    font-weight: 100;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+/*tipografia sesiones 2020*/
+.first_p {
+    font-family: 'Noto-Serif';
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+main .first_p:nth-child(2) {
+    text-align: left;
+}
+main .first_p:nth-child(3) {
+    border-bottom: 2px dotted rgb(155, 23, 0);
+    padding-bottom: 2.8rem;
+    text-align: left;
+}
+
+.title_sesiones {
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 2rem;
+}
+
+section figcaption {
+    color: #9b1700;
+}
+
+/*tipografia clubes tematicos*/
+.row1 figcaption {
+    font-family: 'Noto-Serif', serif;
+    margin-top: 0.4rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.row1 p {
+    font-family: 'Noto-Serif', serif;
+    margin-top: 0.4rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+/*tipografia sesiones2020 + detalles_sessiones*/
+aside h4 {
+    text-transform: none;
+    margin-top: -0.8rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family: 'Noto-Serif', sans-serif;
+}
+
+.container section p:before {
+    content: "·····";
+    color: rgb(155, 23, 0);
+    margin-right: 1.2rem;
+}
+
+.container section p {
+    font-family: 'Noto-sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.breadcrumbs {
+    margin-left: 10vw;
+    font-family: 'Open-sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.container_detalles section h4, .container_detalles aside h4 {
+    font-family: 'Noto-serif', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+aside h3 {
+    text-align: left;
+    padding-bottom: 3rem;
+}
+
+.container_detalles aside {
+    text-transform: none;
+}
+
+.container_detalles dt {
+    border-bottom: 1px solid black;
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+    font-weight: 700;
+}
+
+.container_detalles p {
+    font-family: 'Noto-serif', sans-serif;
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+.container_detalles p:last-child {
+    font-size: 0.8rem;
+}
+
+/*BODY*/
+body {
+    margin: 0 auto;
+    background-color: #E8E8E8;
+    color: #1C1C1C;
+}
+
+main {
+    max-width: 960px;
+    min-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 4vh;
+}
+
+section {
+    margin-top: 3.6rem;
+    margin-right: 8vw;
+}
+
+.container_detalles section {
+    margin-top: 6.2rem;
+}
+
+/*GRID styles*/
+.grid {
+    display: flex;
+    margin: 0 auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 4rem;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 4rem;
+    grid-template-areas: 
+        "sidebar" "content"
+}
+
+aside {
+    grid-area: sidebar;
+    margin-left: 10vw;
+    margin-right: 4vw;
+    font-family: 'Noto-Sans', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    line-height: 160%;
+}
+
+.container_detalles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 4rem;
+    grid-template-areas: 
+        "sidebar" "content"
+}
+
+/*links*/
+.menu {
+    color: rgb(28,28,28);
+}
+
+.menu:hover {
+    color: rgb(28,28,28,0.5);
+}
+
+.menu:active {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.breadcrumbs a[href=""] {
+    color: rgb(28,28,28,0.5);
+}
+
+.link_form, .row1 a {
+    text-decoration: none;
+    color: #A01127;
+}
+
+aside a, section a, .breadcrumbs a {
+    text-decoration: none;
+}
+
+aside a, .breadcrumbs a {
+    color: black;
+}
+
+figure a {
+    color: rgb(28, 28, 28);
+}
+
+/*images*/
+img {
+    max-width: 100%;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.row figure {
+    position: relative;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card p {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+section figcaption {
+    font-family: 'Noto-Serif', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 0.4rem;
+    margin-top: 1.6rem;
+}
+
+.row1 figcaption:before {
+    content: "·····";
+    color: rgb(155, 23, 0);
+    margin-right: 1.2rem;
+}
+
+.container_detalles img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 1.2rem;
+    shape-outside: circle();
+}
+
+section figure {
+    width: 80%;
+    margin: 0.8rem;
+    margin-top: -0.8rem;
+}
+
+/*form*/
+form {
+    margin: 0 auto;
+    padding-right: 8vw;;
+    width: 300px;
+    font-family: 'Open-Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text_form label {
+    display: none;
+}
+
+.text_form input {
+    width: 300px;
+    height: 3rem;
+    padding-left: 0.8rem;
+}
+
+.text_form p:last-child {
+    width: 320px;
+}
+
+input:valid {
+   border: 2px solid green;
+}
+
+input:invalid {
+    box-shadow: 0 0 5px 0 red;
+}
+
+/*footer*/
+#footer {
+    font-size: 0.8rem;
+    color: white;
+    background-color: rgb(67, 58, 68);
+}
+
+.blocks {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.blocks a:hover {
+    color: rgb(155,23,0);
+}
+.nav_footer, .social {    
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+}
+
+.nav_footer li, .social li {
+    display: inline;
+}
+
+.nav_footer li:after, .social li:after {
+	content: "·";
+    margin-left: 0.8rem;
+}
+
+.nav_footer li:last-child:after, .social li:last-child:after {
+	display: none;
+}
+
+.social {
+    float: right;
+}
+
+.nav_footer {
+    float: left;
+}
+
+.cleared {
+    clear: left;
+    padding-top: 1.6rem;
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.cleared p:last-child {
+    text-align: right;
+}
+
+.nav_footer a, .social a {
+    text-decoration: none;
+    color: white;
+}
+
+/*MEDIA*/
+@media screen and (max-width: 600px) {
+    /*header*/
+    #header {
+        flex-direction: column;
+        margin-bottom: 6vh;
+    }
+    .header nav ul li {
+        display: grid;
+        padding: 1vh;
+    }
+    .header nav {
+        text-align: center;
+        margin-top: 2vh;
+    }
+    .header:nth-of-type(3) {
+        order: -1;
+        margin-bottom: 3vh;
+        margin-top: 3vh;
+        font-family: 'Open-Sans', sans-serif;
+    }
+    /*index*/
+    .icons {
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+    }
+    .grid {
+        flex-direction: column;
+    }
+    .text_grid h2 {
+        margin-bottom: 2vh;
+    }
+   
+    /*clubes tematicos*/
+    .row1 {  
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    /*sesiones 2020*/
+    .title_sesiones {
+        margin-top: 4vh;
+    }
+    main .first_p:nth-child(2), main .first_p:nth-child(3) {
+        margin-left: 4vw;
+        margin-right: 4vw;
+        border-bottom: none;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-right: 4vw;
+        margin-left: 4vw;
+    }
+    .container aside {
+        margin-left: 0vw;
+    }
+   .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 60%;
+        margin: 0 auto;
+        grid-gap: 2rem;
+        padding-bottom: 4vh;
+    }
+    .container section p:before {
+        content: "···";
+        color: rgb(155, 23, 0);
+        margin-right: 1.2rem;
+}
+    
+    /*detalles session*/
+    .container_detalles {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .breadcrumbs {
+        text-align: center;
+        margin-top: 4vw;
+    }
+    .container_detalles aside {
+        margin-right: 4vw;
+    }
+    .container_detalles section {
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+    
+    /*footer*/
+    .blocks {
+        display: grid;
+        grid-gap: 3vh;
+    }
+    .nav_footer li, .social li, .cleared {
+        display: block;
+        text-align: center;
+        padding: 0.5vh;
+    }
+    .nav_footer li:after, .social li:after {
+	   content: none;
+}
+}
+
